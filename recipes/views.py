@@ -7,6 +7,6 @@ def Home(request):
         'name': 'Samuel Oliveira'
     })
 def Contato(request):
-    return render(request, 'me-apague/temp.html')
+    return render(request, 'recipes/contato.html')
 def Sobre(request):
     return HttpResponse('sobre')
